@@ -15,7 +15,6 @@
     "test:security": "node --test tests/security/zero-trust.test.js",
     "audit:secrets": "node scripts/audit-secrets.js",
     "audit:syntax": "node scripts/audit-syntax.js",
-    "audit:monoliths": "node scripts/audit-monoliths.js",
     "harness:check": "node scripts/audit-harness.js"
   },
   "dependencies": {
